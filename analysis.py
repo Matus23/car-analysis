@@ -1,15 +1,6 @@
 gallon_in_litres = 3.785411784
 mile_in_km = 1.60934
 
-def get_portfolio_size():
-    portfolio_size = input("Enter size of portfolio to trade with in $USD: ")
-    try:
-        portfolio_size = int(portfolio_size) + 0
-    except:
-        raise TypeError("Enter numerical value for portfolio size")
-
-    return portfolio_size
-
 
 def choose_metrics():
     metric = input("Choose your metric - (1) EU, (2) British: ")
